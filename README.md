@@ -1,16 +1,30 @@
-## Hi there 👋
+<h1 align="center">Hello there, I'm Hemanth 👋</h1>
 
-<!--
-**hemanthsrp/hemanthsrp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <a href="mailto:hpeddasani7@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="42" height="30" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/hemanthsrp/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="42" height="30" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/itshemanthp/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="42" height="30" alt="instagram logo"  />
+  </a>
+</div>
 
-Here are some ideas to get you started:
+```js
+import { SoftwareDeveloper } from '@hemanthsrp';
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Bio extends SoftwareDeveloper {
+  name     = 'Hemanthsai Peddasani';
+  title    = 'SWE + Math Student @ Iowa State University';
+  location = 'Plano, TX & Ames, IA';
+  website  = 'https://www.hemanthsrp.com';
+}
+
+class Skills extends SoftwareDeveloper {
+  languages  = ['Java', 'Python', 'C++', 'JaveScript', 'TypeScript'];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
+  frameworks = ['React', 'Express.js', 'PyTorch', 'TensorFlow'];
+}
+```
